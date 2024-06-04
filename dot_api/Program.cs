@@ -3,6 +3,8 @@ using dot_api.Dtos;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+const string GetGameEndpointName = "GetGame";
+
 List<GameDto> games = [
 new(1,"Spiderman","Fiction",19.22M , new DateOnly(1992, 7, 15)),
 new (2,"Final Fantasy","Roleplaying",5.99M,new DateOnly(2010, 9, 30)),
@@ -21,7 +23,7 @@ new(3, "John Suello", 23)
 app.MapGet("games", () => games);
 
 // GET  / games/
-app.MapGet("games/{id}",(int id) => games.Find(game => game.Id == id) ).WithName("GetGame");
+app.MapGet("games/{id}",(int id) => games.Find(game => game.Id == id) ).WithName(GetGameEndpointName);
 
 // POST /games
 app.MapPost("games", (CreateGameDto newGame) => {
@@ -35,7 +37,7 @@ app.MapPost("games", (CreateGameDto newGame) => {
 
     games.Add(game);
 
-    return Results.CreatedAtRoute("GetGame", new { id = game.Id}, game);
+    return Results.CreatedAtRoute(GetGameEndpointName, new { id = game.Id}, game);
 });
 
 
