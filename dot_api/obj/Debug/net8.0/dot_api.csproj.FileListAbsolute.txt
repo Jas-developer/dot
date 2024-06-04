@@ -23,3 +23,4 @@ C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\refint\dot_api.dll
 C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.pdb
 C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.genruntimeconfig.cache
 C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\ref\dot_api.dll
+c:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.sourcelink.json

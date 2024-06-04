@@ -7,3 +7,5 @@ public record class GameDto(
     decimal Price,
     DateOnly ReleaseDate 
  );
+
+
