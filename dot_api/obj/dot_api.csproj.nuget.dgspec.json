@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj": {}
+    "C:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj": {}
   },
   "projects": {
-    "c:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj": {
+    "C:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj",
+        "projectUniqueName": "C:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj",
         "projectName": "dot_api",
-        "projectPath": "c:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj",
+        "projectPath": "C:\\End Day Report\\JANGO\\dot\\dot_api\\dot_api.csproj",
         "packagesPath": "C:\\Users\\DevJas\\.nuget\\packages\\",
-        "outputPath": "c:\\End Day Report\\JANGO\\dot\\dot_api\\obj\\",
+        "outputPath": "C:\\End Day Report\\JANGO\\dot\\dot_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DevJas\\AppData\\Roaming\\NuGet\\NuGet.Config"
