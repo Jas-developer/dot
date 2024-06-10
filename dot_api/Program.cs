@@ -55,6 +55,18 @@ app.MapPut("games/{id}", (int id, UpdateGameDto updateGame) => {
 });
 
 
+// PUT / GAMES
+// BUYING ITEMS
+app.MapPut("games/{id}", (int id, ItemDto itemdto) => {
+    var index = games.FindIndex(game => game.Id == id);
+    games[index] = new GameDto(
+        id,
+        itemdto.Quantity + 1,
+        itemdto.ItemName,
+        itemdto.ItemPower
+    )
+})
+
 
 
 
