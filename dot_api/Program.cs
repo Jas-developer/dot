@@ -23,7 +23,13 @@ new(3, "John Suello", 23)
 app.MapGet("games", () => games);
 
 // GET  / games/
-app.MapGet("games/{id}",(int id) => games.Find(game => game.Id == id) ).WithName(GetGameEndpointName);
+app.MapGet("games/{id}",(int id) =>  {
+
+  GameDto? game =  games.Find(game => game.Id == id);
+  return game is null ? Results.NotFound() : Results.Ok(game);
+  
+    
+    } ).WithName(GetGameEndpointName);
 
 // POST /games
 app.MapPost("games", (CreateGameDto newGame) => {
