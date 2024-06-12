@@ -1,7 +1,7 @@
 GET http://localhost:5276/games
 //api for users
 ###
-GET http://localhost:5276/games/1
+GET http://localhost:5276/games/4
 
 ###
 POST http://localhost:5276/games
