@@ -24,3 +24,9 @@ C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.pdb
 C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.genruntimeconfig.cache
 C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\ref\dot_api.dll
 c:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.sourcelink.json
+C:\End Day Report\JANGO\dot\dot_api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\End Day Report\JANGO\dot\dot_api\bin\Debug\net8.0\MinimalApis.Extensions.dll
+C:\End Day Report\JANGO\dot\dot_api\bin\Debug\net8.0\MiniValidation.dll
+C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.csproj.AssemblyReference.cache
+C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.MvcApplicationPartsAssemblyInfo.cs
+C:\End Day Report\JANGO\dot\dot_api\obj\Debug\net8.0\dot_api.csproj.Up2Date
